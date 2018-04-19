@@ -14,9 +14,93 @@
 </head>
 
 <body>
+  <!-- Start Container -->
+  <div class="container">
+    <!-- Start Row -->
+    <div class="row">
+      <!-- Start Column -->
+      <div class="col s12">
+        <!-- Start Card -->
+        <div id="main" class="card">
+          <!-- Start Card Content -->
+          <div class="card-content">
+            <span class="card-title">Task List</span>
+            <!-- Start Embedded Row 1 -->
+            <div class="row">
+              <!-- Start Form -->
+              <form id="task-form">
+                <div class="input-field col s12">
+                  <input type="text" name="task" id="task" value="Walk the dog">
+                  <label for="task">New Task</label>
+                </div>
+              <!-- End Form -->
+              </form>
+            <!-- End Embedded Row 1 -->
+            </div>
+          <!-- End Card Content -->
+          </div>
+          <!-- Start Card Action -->
+          <div class="card-action">
+            <h5 id="task-title">Tasks</h5>
+            <!-- Start Collection -->
+            <ul class="collection">
+              <!-- Start Collection Item 1 -->
+              <li class="collection-item">
+                List Item
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              <!-- End Collection Item 1 -->
+              </li>
+              <!-- Start Collection Item 2 -->
+              <li class="collection-item">
+                List Item
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              <!-- End Collection Item 2 -->
+              </li>
+              <!-- Start Collection Item 3 -->
+              <li class="collection-item">
+                List Item
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              <!-- End Collection Item 3 -->
+              </li>
+              <!-- Start Collection Item 4 -->
+              <li class="collection-item">
+                List Item
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              <!-- End Collection Item 4 -->
+              </li>
+              <!-- Start Collection Item 5 -->
+              <li class="collection-item">
+                List Item
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              <!-- End Collection Item 5 -->
+              </li>
+            <!-- End Collection -->
+            </ul>
+            <!-- Clear Button -->
+            <a href="" class="clear-tasks btn black">Clear Tasks</a>
+          <!-- End Card Action -->
+          </div>
+        <!-- End Card -->
+        </div>
+      <!-- End Column -->
+      </div>
+    <!-- End Row -->
+    </div>
+  <!-- End Container -->
+  </div>
   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="app.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
